@@ -1,6 +1,6 @@
 FROM solanadevelopers/solana-workshop-image:0.0.2
 
-ENV VERSION_ANCHOR=0.26.0
+ENV VERSION_ANCHOR=0.28.0
 
 RUN apt update && apt upgrade -y && apt install libssl-dev
 
